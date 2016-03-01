@@ -10,8 +10,8 @@ int main(int argc, char* argv[]){
 	int rc;
 	socklen_t acceptlen;
 	struct sockaddr_in clientaddr;
-	if((sockfd = startServer(3000)) == -1)
-		return -1;
+	sockfd = startServer(3000);
+
 	rc = makeSocketNoBlocking(sockfd);
 	check(rc == 0, "makeSocketNoBlocking");
 
@@ -43,7 +43,7 @@ int main(int argc, char* argv[]){
 					if(acceptfd == -1){
 						if((errno == EAGAIN) || (errno ==EWOULDBLOCK)){
 
-							continue;
+							break;
 						}else {
 							logErr("accept");
 							break;

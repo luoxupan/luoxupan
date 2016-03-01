@@ -9,12 +9,13 @@ int startServer(int port){
 	struct sockaddr_in serveraddr;
 
 	int sockfd;
-	if((sockfd = socket(AF_INET,SOCK_STREAM,0))==-1)
+	if((sockfd = socket(AF_INET,SOCK_STREAM,0)) < 0)
 		return -1;
-	if(setsockopt(sockfd, SOL_SOCKET, SO_REUSEADDR, (const void*)&optval, sizeof(int)) < 0 )
+	if(setsockopt(sockfd, SOL_SOCKET, SO_REUSEADDR, 
+			(const void*)&optval, sizeof(int)) < 0 )
 		return  -1;
 
-	bzero(&serveraddr, sizeof(serveraddr));
+	bzero((char *) &serveraddr, sizeof(serveraddr));
 	serveraddr.sin_family = AF_INET;
 	serveraddr.sin_addr.s_addr = htonl(INADDR_ANY);
 	serveraddr.sin_port = htons((unsigned short)port);
