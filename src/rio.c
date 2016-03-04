@@ -28,8 +28,10 @@ ssize_t rioWriten(int fd, void *usrbuf, size_t n){
 		if((writenlen = write(fd, buf, len)) <= 0){
 			if(errno == EINTR)
 				writenlen = 0;
-			else
+			else{
+				logErr("errno == %d\n", errno);
 				return -1;
+			}
 		}
 		len -= writenlen;
 		buf += writenlen;
@@ -39,10 +41,14 @@ ssize_t rioWriten(int fd, void *usrbuf, size_t n){
 }
 
 static ssize_t rioRead(rio_t *rp, char *usrbuf, size_t n){
-	int cnt;
+	size_t cnt;
 	while(rp->rio_cnt <= 0){
-		rp->rio_cnt = read(rp->rio_fd, rp->rio_buf, sizeof(rp->rio_buf));
+		rp->rio_cnt = read(rp->rio_fd, rp->rio_buf, 
+							sizeof(rp->rio_buf));
 		if(rp->rio_cnt < 0){
+			if(errno == EAGAIN){
+				return -EAGAIN;
+			}
 			if(errno != EINTR)
 				return -1;
 		} 
@@ -104,6 +110,9 @@ ssize_t rioReadlineb(rio_t *rp, void *usrbuf, size_t maxlen){
 				return 0;
 			else 
 				break;
+		}
+		else if(rc == -EAGAIN){
+			return rc;
 		}
 		else
 			return -1;

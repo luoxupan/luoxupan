@@ -6,12 +6,12 @@
 
 void unixError(char *msg){
 	fprintf(stderr, "%s: %s\n", msg, strerror(errno));
-	exit(0);
+	// exit(0);
 }
 
 void posixError(int code, char *msg){
 	fprintf(stderr,"%s: %s\n",msg,strerror(code));
-	exit(0);
+	// exit(0);
 }
 
 #endif
