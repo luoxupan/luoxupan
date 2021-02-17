@@ -1,5 +1,7 @@
 ### [reactjs doc: fiber-reconciler](https://zh-hans.reactjs.org/docs/codebase-overview.html#fiber-reconciler)
 
+### [React技术揭秘](https://react.iamkasong.com/)
+
 ### [Build your own React](https://pomb.us/build-your-own-react/)
 
 ### [fiber: the new reconciliation algorithm](https://indepth.dev/posts/1008/inside-fiber-in-depth-overview-of-the-new-reconciliation-algorithm-in-react)
