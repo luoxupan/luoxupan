@@ -4,6 +4,8 @@
 
 ### [React 源码解析](https://react.jokcy.me/)
 
+### [react生命周期](https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)
+
 ### [a-complete-guide-to-useeffect](https://overreacted.io/zh-hans/a-complete-guide-to-useeffect/)
 
 ### [Interview](https://github.com/qappleh/Interview)
