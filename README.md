@@ -19,3 +19,10 @@
 ### [Dan: react state updates](https://stackoverflow.com/questions/48563650/does-react-keep-the-order-for-state-updates/48610973#48610973)
 
 ### [why is `setState` asynchronous?](https://github.com/facebook/react/issues/11527)
+
+
+### plan
+
+- 刷LeetCode top100 offer
+- 读完 webkit技术内幕
+- 系统学习TS
