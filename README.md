@@ -23,6 +23,6 @@
 
 ### plan
 
-- 刷LeetCode top100 offer
+- 刷LeetCode [HOT 100](https://leetcode-cn.com/problemset/leetcode-hot-100/) [剑指 Offer](https://leetcode-cn.com/problemset/lcof/)
 - 读完 webkit技术内幕
 - 系统学习TS
