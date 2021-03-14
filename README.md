@@ -20,6 +20,8 @@
 
 ### [why is `setState` asynchronous?](https://github.com/facebook/react/issues/11527)
 
+### [JavaScript 花园](http://bonsaiden.github.io/JavaScript-Garden/zh/) --- 关于Javascript最古怪部分的资料。
+
 
 ### plan
 
