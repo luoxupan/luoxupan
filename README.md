@@ -37,6 +37,6 @@
 
 - 刷LeetCode [HOT 100](https://leetcode-cn.com/problemset/leetcode-hot-100/) [剑指 Offer](https://leetcode-cn.com/problemset/lcof/)
 - 熟悉框架、熟悉基础知识（浏览器渲染原理、JS、CSS）
-- 理解 读懂[etherpad](https://github.com/ether/etherpad-lite) document editor 代码
+- 理解 读懂[slate](https://github.com/ianstormtaylor/slate) document editor 代码
 - [LeetcodeTop](https://github.com/afatcoder/LeetcodeTop)
 - 系统学习TS
