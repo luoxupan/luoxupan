@@ -27,8 +27,6 @@
 
 ### [MDN Web教程](https://developer.mozilla.org/zh-CN/docs/Web/Tutorials)
 
-### [JavaScript 花园](http://bonsaiden.github.io/JavaScript-Garden/zh/) --- 关于Javascript最古怪部分的资料。
-
 ### [JavaScript 指南](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Guide) --- 一个为所有的学习者从初级到高级的全面、定期更新的 JavaScript 指南。
 
 
