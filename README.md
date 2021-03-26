@@ -1,6 +1,3 @@
-### [DNS 查询](http://tool.chinaz.com/dns/?type=1&host=github.com&ip=)
-
-
 ### [reactjs 中文文档: fiber-reconciler](https://zh-hans.reactjs.org/docs/codebase-overview.html#fiber-reconciler)
 
 ### [React技术揭秘](https://react.iamkasong.com/)
@@ -27,7 +24,7 @@
 
 ### [MDN Web教程](https://developer.mozilla.org/zh-CN/docs/Web/Tutorials)
 
-### [JavaScript 指南](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Guide) --- 一个为所有的学习者从初级到高级的全面、定期更新的 JavaScript 指南。
+### [JavaScript 指南](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Guide)
 
 
 
