@@ -20,18 +20,3 @@
 
 ### [why is `setState` asynchronous?](https://github.com/facebook/react/issues/11527)
 
-----
-
-### [MDN Web教程](https://developer.mozilla.org/zh-CN/docs/Web/Tutorials)
-
-### [JavaScript 指南](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Guide)
-
-
-
-### plan
-
-- 刷LeetCode [HOT 100](https://leetcode-cn.com/problemset/leetcode-hot-100/) [剑指 Offer](https://leetcode-cn.com/problemset/lcof/)
-- 熟悉框架、熟悉基础知识（浏览器渲染原理、JS、CSS）
-- 理解 读懂[slate](https://github.com/ianstormtaylor/slate) document editor 代码
-- [LeetcodeTop](https://github.com/afatcoder/LeetcodeTop)
-- 系统学习TS
