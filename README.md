@@ -20,3 +20,4 @@
 
 ### [why is `setState` asynchronous?](https://github.com/facebook/react/issues/11527)
 
+### [Cross-Origin Read Blocking (CORB)](http://www.yaoyanhuo.com/blog/corb/)
