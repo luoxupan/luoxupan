@@ -6,7 +6,7 @@
 
 ### [react生命周期](https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)
 
-### [a-complete-guide-to-useeffect](https://overreacted.io/zh-hans/a-complete-guide-to-useeffect/)
+### [useEffect 完整指南](https://overreacted.io/zh-hans/a-complete-guide-to-useeffect/)
 
 ### [Build your own React](https://pomb.us/build-your-own-react/)
 
